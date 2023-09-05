@@ -1,8 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+import React from "react";
+import App from './App';
+import ReactDOM from "react-dom/client";   //import { ReactDOM } from "react-dom/client";  //??   utilisée pour rendre des composants React dans le DOM
+import { BrowserRouter } from "react-router-dom"; //? définir des routes pour différents composants et gérer la navigation entre eux de manière réactive.
+import "bootstrap/dist/css/bootstrap.min.css";  //dist as distribution;
 import './index.css';
-import { BrowserRouter } from 'react-router-dom';
+
+
+// notes react querry  facilite la mise en cache des données, la gestion des requêtes réseau 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -11,3 +15,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </BrowserRouter>
   </React.StrictMode>,
 );
+
+
