@@ -24,7 +24,7 @@ const AllFood = () => {
 
   return (
     <Container fluid className='text-center'>
-        <Link className='text-4xl text-red-400' to='/'>Retour aux Catégories</Link>
+        <Link className='text-4xl text-red-400' to='/'>Retour au livre de recette</Link>
         <Card className='my-6 border-4 border-red-400 w-2/5 mx-auto'>
             <Col md={12}>
                 <Card.Title className=' py-3 text-4xl text-dark'>{params.name}</Card.Title>
